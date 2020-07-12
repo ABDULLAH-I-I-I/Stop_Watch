@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: honeydew;
+    display: inline-block;
+    width: 70px;
+    height: 45px;
+    background-color: violet;    
+}
+h2{
+    color: honeydew;
+    background-color: violet;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    text-decoration-line: underline;
+}
+button{
+    color: red;
+    width: 50px;
+    height: 30px;
+    font-weight: bold;    
+}
+@media screen and (max-width: 600px) {
+h1,h2,button {
+    width: 150px;
